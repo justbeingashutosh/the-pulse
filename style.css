@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+nav{
+    /* border: 2px solid lime; */
+}
+#container{
+    padding-top: 30px;
+    border: 2px solid cyan;
+    overflow-y: auto;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+#left, #right, #center{
+    height: auto;
+    /* border: 2px solid red; */
+    flex-grow: 1;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 15px;
+}
+#center{
+    justify-content: center;
+}
+#right{
+    justify-content: end;
+}

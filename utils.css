@@ -1,0 +1,38 @@
+nav{
+    /* position: fixed gand mare;
+    top: 0; */
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+}
+.card{
+    border: 2px solid black;
+    height: 500px;
+    width: 700px;
+    border-radius: 30px;
+    margin-inline: auto;
+    margin-block: 20px;
+    cursor: pointer;
+}
+.card-img-container{
+    width: inherit;
+    height: 300px;
+    border-radius: 30px 30px 0px 0px;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+.card-img-container > img{
+    width: inherit;
+    border-radius: 30px 30px 0px 0px;
+    transform: translateY(-50px);
+}
+.card-title{
+    font-size: 2em;
+    margin-inline: 10px;
+}
+.card-description{
+    margin-inline: 10px;
+    margin-top: 10px;
+}
